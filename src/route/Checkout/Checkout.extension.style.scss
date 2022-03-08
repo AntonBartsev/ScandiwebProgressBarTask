@@ -1,7 +1,6 @@
 
 
 .Checkout{
-
     &::before{
         display: none;
     }
@@ -44,17 +43,6 @@
     transition-duration: 1s;
 }
 
-.lineInactiveMiddle {
-    background-color: var(--secondary-dark-color);
-    width: 20%;
-    height: 5px;
-}
-
-.lineActiveMiddle {
-    background-color: var(--primary-base-color);
-    width: 20%;
-    height: 5px;
-}
 
 .numberActive {
     display: flex;
